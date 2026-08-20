@@ -1,4 +1,6 @@
-﻿// ======================================================
+﻿using CSharp_Debugging_and_Tracing.Snippets;
+
+// ======================================================
 // C# Debugging and Tracing
 // Main Console Menu
 // ======================================================
@@ -45,7 +47,8 @@ while (keepRunning)
     switch (choice)
     {
         case "1":
-            ShowComingSoon("Example 01 - Debugging Basics");
+            Snippet01DebuggingBasics.Run();
+            Pause();
             break;
 
         case "2":
