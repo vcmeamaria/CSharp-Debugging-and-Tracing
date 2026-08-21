@@ -112,7 +112,8 @@ while (keepRunning)
             break;
 
         case "14":
-            ShowComingSoon("Example 14 - Complete Debugging and Tracing Example");
+            Snippet14CompleteExample.Run();
+            Pause();
             break;
 
         case "0":

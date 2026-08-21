@@ -19,6 +19,10 @@ obj/
 
 *.log
 
+# Generated trace text files
+app-log.txt
+trace-log.txt
+
 # ==========================================
 # Local Learning Material
 # ==========================================
