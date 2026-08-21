@@ -97,7 +97,8 @@ while (keepRunning)
             break;
 
         case "11":
-            ShowComingSoon("Example 11 - Trace Configuration");
+            Snippet11TraceConfiguration.Run();
+            Pause();
             break;
 
         case "12":
