@@ -107,7 +107,8 @@ while (keepRunning)
             break;
 
         case "13":
-            ShowComingSoon("Example 13 - Logging Levels");
+            Snippet13LoggingLevels.Run();
+            Pause();
             break;
 
         case "14":
