@@ -52,7 +52,8 @@ while (keepRunning)
             break;
 
         case "2":
-            ShowComingSoon("Example 02 - Visual Studio Debugging");
+            Snippet02VisualStudioDebugging.Run();
+            Pause();
             break;
 
         case "3":
