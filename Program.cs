@@ -57,7 +57,8 @@ while (keepRunning)
             break;
 
         case "3":
-            ShowComingSoon("Example 03 - Basic Tracing");
+            Snippet03BasicTracing.Run();
+            Pause();
             break;
 
         case "4":
