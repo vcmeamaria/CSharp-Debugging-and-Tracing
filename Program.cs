@@ -135,18 +135,6 @@ while (keepRunning)
 // Helper Methods
 // ======================================================
 
-static void ShowComingSoon(string exampleName)
-{
-    Console.WriteLine("==========================================");
-    Console.WriteLine(exampleName);
-    Console.WriteLine("==========================================");
-    Console.WriteLine();
-
-    Console.WriteLine("This example will be added in its own branch.");
-
-    Pause();
-}
-
 
 static void Pause()
 {
