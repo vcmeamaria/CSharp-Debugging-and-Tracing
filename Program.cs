@@ -72,7 +72,8 @@ while (keepRunning)
             break;
 
         case "6":
-            ShowComingSoon("Example 06 - Debug.Assert");
+            Snippet06DebugAssert.Run();
+            Pause();
             break;
 
         case "7":
