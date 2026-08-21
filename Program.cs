@@ -87,7 +87,8 @@ while (keepRunning)
             break;
 
         case "9":
-            ShowComingSoon("Example 09 - Console Trace Listener");
+            Snippet09ConsoleTraceListener.Run();
+            Pause();
             break;
 
         case "10":
