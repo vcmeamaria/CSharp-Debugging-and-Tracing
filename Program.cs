@@ -62,7 +62,8 @@ while (keepRunning)
             break;
 
         case "4":
-            ShowComingSoon("Example 04 - Debug vs Trace");
+            Snippet04DebugVsTrace.Run();
+            Pause();
             break;
 
         case "5":
