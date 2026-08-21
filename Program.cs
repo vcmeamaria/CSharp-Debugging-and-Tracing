@@ -92,7 +92,8 @@ while (keepRunning)
             break;
 
         case "10":
-            ShowComingSoon("Example 10 - File Trace Listener");
+            Snippet10FileTraceListener.Run();
+            Pause();
             break;
 
         case "11":
