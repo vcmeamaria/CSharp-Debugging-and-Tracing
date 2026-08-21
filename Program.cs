@@ -67,7 +67,8 @@ while (keepRunning)
             break;
 
         case "5":
-            ShowComingSoon("Example 05 - Debug and Trace Members");
+            Snippet05DebugTraceMembers.Run();
+            Pause();
             break;
 
         case "6":
