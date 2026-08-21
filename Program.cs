@@ -77,7 +77,8 @@ while (keepRunning)
             break;
 
         case "7":
-            ShowComingSoon("Example 07 - Conditional Debug");
+            Snippet07ConditionalDebug.Run();
+            Pause();
             break;
 
         case "8":
