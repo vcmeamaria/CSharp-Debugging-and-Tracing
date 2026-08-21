@@ -31,3 +31,12 @@ obj/
 
 .DS_Store
 Thumbs.db
+
+# ==========================================
+# Logging Files
+# ==========================================
+
+*.log
+
+# Generated trace text files
+app-log.txt
