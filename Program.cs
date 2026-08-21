@@ -82,7 +82,8 @@ while (keepRunning)
             break;
 
         case "8":
-            ShowComingSoon("Example 08 - Custom Conditional Logging");
+            Snippet08CustomConditionalLogging.Run();
+            Pause();
             break;
 
         case "9":
