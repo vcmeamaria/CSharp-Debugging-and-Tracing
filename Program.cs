@@ -102,7 +102,8 @@ while (keepRunning)
             break;
 
         case "12":
-            ShowComingSoon("Example 12 - log4net");
+            Snippet12Log4Net.Run();
+            Pause();
             break;
 
         case "13":

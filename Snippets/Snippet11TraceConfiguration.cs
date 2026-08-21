@@ -19,8 +19,12 @@
 // The App.config tracing approach shown in this example
 // belongs to older .NET Framework applications.
 //
-// We are keeping the example here so we can understand
-// how this configuration method worked.
+// To prevent modern .NET from treating the old
+// configuration as an active application configuration,
+// the example file in this project is stored as:
+//
+// App.config.example
+//
 // ======================================================
 
 using System.Diagnostics;
@@ -63,6 +67,18 @@ public static class Snippet11TraceConfiguration
         // tracing configuration is not being used to
         // configure this application.
         //
+        // The original .NET Framework file would normally
+        // be called:
+        //
+        // App.config
+        //
+        // In this project, it is stored as:
+        //
+        // App.config.example
+        //
+        // This keeps the configuration as a learning
+        // example without making it active.
+        //
         // The Trace messages can still be viewed in:
         //
         // Visual Studio -> Output -> Debug
@@ -70,10 +86,15 @@ public static class Snippet11TraceConfiguration
 
         Console.WriteLine("Trace messages have been written.");
         Console.WriteLine();
-        Console.WriteLine("Check Visual Studio: Output -> Debug");
-        Console.WriteLine();
+
         Console.WriteLine(
-            "App.config is included as an older .NET Framework example."
+            "Check Visual Studio: Output -> Debug"
+        );
+
+        Console.WriteLine();
+
+        Console.WriteLine(
+            "App.config.example is included as an older .NET Framework example."
         );
     }
 }
